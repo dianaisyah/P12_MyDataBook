@@ -54,13 +54,16 @@ public class CustomAdapter extends ArrayAdapter<String> {
         tvTitle.setText(currentC);
         // Set the image to star or nostar accordingly
 
-        if (currentC == "Bio"){
+        if (currentC == "Bio") {
             iv.setImageResource(R.drawable.bio);
-        } else if (currentC == "Vaccination"){
-            
+        } else if (currentC == "Vaccination") {
+            iv.setImageResource(R.drawable.vacc);
+        } else if (currentC == "Anniversary"){
+            iv.setImageResource(R.drawable.anniversary);
+        } else {
+            iv.setImageResource(R.drawable.about);
         }
-        // Return the nicely done up View to the ListView
-        return rowView;
+            return rowView;
     }
 
 }
