@@ -13,14 +13,14 @@
         android:weightSum="1">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewAnn"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:text="@string/hello_blank_fragment"
             android:layout_weight="0.99" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonAnn"
             android:layout_width="109dp"
             android:layout_height="wrap_content"
             android:text="Edit" />
