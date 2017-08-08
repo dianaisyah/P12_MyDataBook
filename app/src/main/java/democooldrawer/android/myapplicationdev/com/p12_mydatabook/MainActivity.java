@@ -55,7 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 else if (position == 2)
                     fragment = new AnniversaryFragment();
                 else if (position == 3)
+                    fragment = new AboutFragment();
+                else if (position == 4)
                     fragment = new NoteFrag();
+
 
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentTransaction trans = fm.beginTransaction();
